@@ -1,9 +1,11 @@
 {
   "name": "brawlnet",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "author": "Unitoshka",
-  "module": "index.ts",
-  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Unitoshka/BrawlNet.git"
