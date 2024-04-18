@@ -1,13 +1,28 @@
 {
   "name": "brawlnet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Unitoshka",
   "module": "index.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unitoshka/BrawlNet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Unitoshka/BrawlNet/issues"
+  },
   "devDependencies": {
     "@types/node": "latest",
     "typescript": "^5.3.3"
   },
+  "build": "tsc",
+  "dev": "tsc --watch",
+  "description": "API Wrapper for Brawl Stars written on TypeScript.",
+  "keywords": [
+    "brawlstars",
+    "brawl",
+    "brawlnet"
+  ],
   "peerDependencies": {
     "typescript": "^5.0.0"
   }

@@ -1,15 +1,29 @@
-# brawlnet
+# BrawlNet
 
-To install dependencies:
+<div align="center">
+  <img src="https://github.com/Unitoshka/Unitoshka/assets/147263186/d7cd96dc-deac-4680-9221-67f96921df69" alt="brawlNet" /> 
+</div>
 
-```bash
-bun install
-```
+## 📦 Download
 
-To run:
+-   **usage `npm`**
+    ```shell
+    npm install brawlnet
+    ```
 
-```bash
-bun run index.ts
-```
+-   **usage `yarn`**
 
-This project was created using `bun init` in bun v1.1.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+    ```shell
+    yarn add brawlnet
+    ```
+
+-   **usage `pnpm`**
+
+    ```shell
+    pnpm install brawlnet
+    ```
+
+-   **usage `bun`**
+    ```shell
+    bun install brawlnet
+    ```
