@@ -95,6 +95,7 @@ export interface Battle {
 export interface BattleResult {
     mode: string,
     type: string,
+    trophyChange: number,
     result: string,
     duration: number,
     starPlayer: StarPlayer,
